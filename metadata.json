@@ -1,0 +1,5 @@
+{
+  "name": "TechDebt Visualizer",
+  "description": "A dark, minimalistic dashboard to visualize technical debt, code complexity, and maintenance costs from code analysis reports.",
+  "requestFramePermissions": []
+}
