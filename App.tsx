@@ -51,7 +51,7 @@ const App: React.FC = () => {
       {view === 'landing' ? (
         <LandingPage onEnter={() => setView('Dashboard')} />
       ) : (
-        <DashboardView onBack={() => setView('landing')} />
+        <DashboardView onBack={() => setView('Landing')} />
       )}
     </ErrorBoundary>
   );
