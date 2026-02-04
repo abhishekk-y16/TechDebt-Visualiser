@@ -50,7 +50,7 @@ const LandingPage: React.FC<Props> = ({ onEnter }) => {
               </span>
             </h1>
             <p className="text-xl text-zinc-400 max-w-lg leading-relaxed">
-              Visualize code complexity, track maintenance costs, and prioritize refactoring with our advanced static analysis dashboard.
+              Visualize code complexity, Track maintenance costs, and Prioritize refactoring with our advanced static analysis dashboard.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <button 
