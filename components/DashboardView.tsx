@@ -53,7 +53,7 @@ const DashboardView: React.FC<Props> = ({ onBack }) => {
         if (json.overview && json.files) {
           setReport(json);
         } else {
-          setError("Invalid report format. Please upload a valid JSON report.");
+          setError("Invalid report Format. Please upload a valid JSON report.");
         }
       } catch (err) {
         setError("Failed to parse JSON file. Please check the File content.");
