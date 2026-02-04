@@ -56,7 +56,7 @@ const DashboardView: React.FC<Props> = ({ onBack }) => {
           setError("Invalid report format. Please upload a valid JSON report.");
         }
       } catch (err) {
-        setError("Failed to parse JSON file. Please check the file content.");
+        setError("Failed to parse JSON file. Please check the File content.");
       } finally {
         setLoading(false);
       }
