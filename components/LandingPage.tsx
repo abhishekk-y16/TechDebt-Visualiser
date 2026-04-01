@@ -16,7 +16,7 @@ const LandingPage: React.FC<Props> = ({ onEnter }) => {
             <div className="bg-indigo-600 p-1.5 rounded-lg shadow-[0_0_15px_rgba(99,102,241,0.5)]">
                <Activity size={20} className="text-white" />
             </div>
-            <span className="font-bold text-xl tracking-tight">TechDebt<span className="text-zinc-500 font-normal">Visualizer</span></span>
+            <span className="font-bold text-xl tracking-tight">TechDebt <span className="text-zinc-500 font-normal">Visualizer</span></span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
             <a href="#features" className="hover:text-white transition-colors">Features</a>
