@@ -76,7 +76,7 @@ const FileExplorer: React.FC<Props> = ({ files }) => {
             onChange={(e) => setStatusFilter(e.target.value as any)}
             className="bg-zinc-900 border border-zinc-800 rounded-lg px-3 py-2 text-sm text-zinc-300 focus:outline-none focus:border-indigo-500/50"
           >
-            <option value="all">All Status</option>
+            <option value="all">All Status </option>
             <option value="critical">Critical</option>
             <option value="warning">Warning</option>
             <option value="good">Good</option>
