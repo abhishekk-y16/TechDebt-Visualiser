@@ -85,7 +85,7 @@ const HeatMap: React.FC<Props> = ({ files }) => {
 
                          {file.duplication && (
                             <span className="col-span-2 text-amber-500 mt-1 text-[10px] uppercase font-bold tracking-wider">
-                              Duplication Detected
+                              Duplication Detected 
                             </span>
                          )}
                       </div>
