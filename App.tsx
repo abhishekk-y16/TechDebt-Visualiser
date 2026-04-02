@@ -27,7 +27,7 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
         <div className="min-h-screen bg-[#09090b] text-white flex flex-col items-center justify-center p-4">
           <div className="bg-zinc-900 border border-zinc-800 p-8 rounded-xl max-w-md w-full text-center">
              <h2 className="text-2xl font-bold mb-4 text-rose-500">Something went wrong</h2>
-             <p className="text-zinc-400 mb-6">The application encountered a critical error. This usually happens due to a rendering issue.</p>
+             <p className="text-zinc-400 mb-6">The application Encountered a critical error. This usually happens due to a rendering issue.</p>
              <button 
                 onClick={() => window.location.reload()}
                 className="bg-white text-black px-6 py-2 rounded-lg font-medium hover:bg-zinc-200 transition-colors"
