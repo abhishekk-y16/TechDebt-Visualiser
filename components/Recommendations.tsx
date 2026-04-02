@@ -67,7 +67,7 @@ const Recommendations: React.FC<Props> = ({ items }) => {
 
         {items.length === 0 && (
           <div className="text-center py-8 text-zinc-500 border border-dashed border-zinc-800 rounded-lg">
-            No active recommendations. Great job!
+            No active Recommendations. Great job!
           </div>
         )}
       </div>
