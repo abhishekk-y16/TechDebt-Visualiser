@@ -57,7 +57,7 @@ interface TrendChartProps {
 }
 
 export const TrendChart: React.FC<TrendChartProps> = ({ data }) => {
-  if (!data || data.length === 0) return <div className="text-zinc-500 text-sm p-4">No trend data available</div>;
+  if (!data || data.length === 0) return <div className="text-zinc-500 text-sm p-4">No Trend data available</div>;
 
   return (
      <div className="h-64 w-full">
