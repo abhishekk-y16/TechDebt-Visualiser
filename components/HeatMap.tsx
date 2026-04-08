@@ -32,7 +32,7 @@ const HeatMap: React.FC<Props> = ({ files }) => {
   const getColorForStatus = (status: string, score: number) => {
     switch (status) {
       case 'critical': 
-        // Gradient based on score severity within critical
+        // Gradient based on score severity within critical 
         return score > 80 ? 'bg-rose-600 shadow-[0_0_10px_rgba(244,63,94,0.4)]' : 'bg-rose-500/80';
       case 'warning': return 'bg-amber-500/80';
       default: return 'bg-emerald-500/40 border border-emerald-500/20';
