@@ -79,7 +79,7 @@ const FileExplorer: React.FC<Props> = ({ files }) => {
             <option value="all">All Status </option>
             <option value="critical">Critical</option>
             <option value="warning">Warning</option>
-            <option value="good">Good</option>
+            <option value="good">Good </option>
           </select>
         </div>
       </div>
