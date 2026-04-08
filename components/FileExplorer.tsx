@@ -30,7 +30,7 @@ const FileExplorer: React.FC<Props> = ({ files }) => {
           return sortDirection === 'asc' ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
         }
         
-        // Numeric comparison
+        // Numeric comparison 
         return sortDirection === 'asc' 
           ? (aValue as number) - (bValue as number)
           : (bValue as number) - (aValue as number);
