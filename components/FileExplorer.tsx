@@ -47,7 +47,7 @@ const FileExplorer: React.FC<Props> = ({ files }) => {
   };
 
   const SortIcon = ({ field }: { field: SortField }) => {
-    if (sortField !== field) return <ArrowUpDown size={14} className="text-zinc-600" />;
+    if (sortField !== field) return <ArrowUpDown size={14} className="text-zinc-600" />; 
     return sortDirection === 'asc' ? <ArrowUp size={14} className="text-indigo-400" /> : <ArrowDown size={14} className="text-indigo-400" />;
   };
 
