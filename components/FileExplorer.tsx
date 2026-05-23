@@ -52,7 +52,7 @@ const FileExplorer: React.FC<Props> = ({ files }) => {
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4"> 
       <div className="flex flex-col sm:flex-row gap-4 justify-between items-center">
         <h3 className="text-lg font-medium text-zinc-100 flex items-center gap-2 self-start sm:self-center">
           <FileCode size={20} className="text-indigo-400" />
