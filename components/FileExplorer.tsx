@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { FileDebtScore } from '../types';
-import { Search, ArrowUpDown, ArrowUp, ArrowDown, FileCode, Filter } from 'lucide-react';
+import { Search, ArrowUpDown, ArrowUp, ArrowDown, FileCode, Filter } from 'lucide-react'; 
 
 interface Props {
   files: FileDebtScore[];
