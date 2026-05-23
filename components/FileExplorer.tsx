@@ -101,7 +101,7 @@ const FileExplorer: React.FC<Props> = ({ files }) => {
                 <th className="px-4 py-3 cursor-pointer hover:text-zinc-300 transition-colors text-right" onClick={() => handleSort('size')}>
                   <div className="flex items-center justify-end gap-2">LOC <SortIcon field="size" /></div>
                 </th>
-                <th className="px-4 py-3 text-right">Status</th>
+                <th className="px-4 py-3 text-right">Status</th> 
               </tr>
             </thead>
             <tbody className="divide-y divide-zinc-800/50">
