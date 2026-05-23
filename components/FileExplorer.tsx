@@ -32,7 +32,7 @@ const FileExplorer: React.FC<Props> = ({ files }) => {
         
         // Numeric comparison 
         return sortDirection === 'asc' 
-          ? (aValue as number) - (bValue as number)
+          ? (aValue as number) - (bValue as number) 
           : (bValue as number) - (aValue as number);
       });
   }, [files, search, sortField, sortDirection, statusFilter]);
