@@ -26,7 +26,7 @@ const FileExplorer: React.FC<Props> = ({ files }) => {
         const aValue = a[sortField];
         const bValue = b[sortField];
         
-        if (typeof aValue === 'string' && typeof bValue === 'string') {
+        if (typeof aValue === 'string' && typeof bValue === 'string') { 
           return sortDirection === 'asc' ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
         }
         
